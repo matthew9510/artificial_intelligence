@@ -79,7 +79,3 @@ class Board(object):
             r = r + 1
         # concatenate list into a string
         return "\n".join(lines)
-
-        
-
-    

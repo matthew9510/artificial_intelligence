@@ -1,6 +1,6 @@
 from math import sqrt
 from basicsearch_lib.board import Board
-from basicsearch_lib.boardtypes import TileBoard
+#from basicsearch_lib.boardtypes import TileBoard
 
 
 ######################################################################
@@ -38,3 +38,17 @@ list_iter = iter(list) # todo use list_iter
 print(list)
 for i in list:
     print(i)
+print(list.__contains__(3))
+
+
+######################################################################
+# Lists
+######################################################################
+two_dimension_list = [[i for i in range(3)] for j in range(3)]
+print(two_dimension_list)
+print(len(two_dimension_list))
+two_dimension_list[0].insert(1, None)  # two_dimension_list elements are <List> objects
+print(two_dimension_list)
+# two_dimension_list.remove(None)  # error
+print(two_dimension_list)
+# finding index of multi dimensional list
