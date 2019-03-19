@@ -24,6 +24,7 @@ Working off of [assignment01](../Assignment01/README.md) we will write a generic
 ##### Checkout
 - The assignment instructions linked at the top of this readme to better understand the assignment
 - [Code](.)
+- The [driver](driver02.py) for using and interacting with the implementation. 
 - [Research done alongside this assignment](Research)
 
 
