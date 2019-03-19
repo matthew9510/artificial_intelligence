@@ -1,0 +1,6 @@
+# Ignore jetbrains ide files
+.idea
+
+# Ignore venv folders
+venv
+ 
