@@ -64,18 +64,24 @@ def Game(red=human.Strategy, black=tonto.Strategy,
 
     board = checkerboard.CheckerBoard()
 
-    board.turncount = 0
+    # board.turncount = 0  # this is already instantiated in the initialization of a CheckerBoard()
     while board.is_terminal()[0] is False:
-        if board.turn_count % 2 == 0:
+        if board.movecount % 2 == 0:  # note move manipulates board.move_count automatically no need to rewrite the workings, just utilize attributes
             [board, red_action] = red_player.play(board)
             print("Red player moved {}".format(red_action))
-            print(board)
-        if board.turn_count % 2 != 0:
+            if red_action is None and board.is_terminal()[1] == 'r':
+                print("Game over, human wins")
+            else:
+                print(board)
+        if board.movecount % 2 != 0:
             [board, black_action] = black_player.play(board)
             print("Black player moved {}".format(black_action))
-            print(board)
-        board.turn_count += 1
-    print("Winner chicken dinner is: " + str(board.is_terminal()[1]))
+            if black_action is None and board.is_terminal()[1] == 'b':
+                print("Take that grey matter, AI wins")
+            else:
+                print(board)
+
+
 
 
 if __name__ == "__main__":
