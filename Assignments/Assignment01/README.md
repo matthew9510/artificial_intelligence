@@ -15,6 +15,6 @@ Example TileBoard(8) creates the 8-puzzle shown below
 
 ##### Checkout:
 - [Assignment instructions](A01.pdf)
--  the [driver.py](basicsearch_lib/driver.py) for using interacting with the implementation. Can you solve the puzzle?
-
+-  The [driver.py](basicsearch_lib/driver.py) for using interacting with the implementation. Can you solve the puzzle?
+- [Code](basicsearch_lib/)
 - [Research done alongside this assignment](Research/)
