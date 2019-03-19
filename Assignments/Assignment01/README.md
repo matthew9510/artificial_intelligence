@@ -3,7 +3,8 @@
 #### Abstract Overview
 
 Created a TileBoard class and Board class for representing n-puzzles 
-![Npuzzle](Npuzzle.JPG)
+
+<img src="Npuzzle.JPG" width=200 height= 200>
 
 - [board.py](basicsearch_lib/board.py) 
 - [boardtypes.py](basicsearch_lib/boardtypes.py)
