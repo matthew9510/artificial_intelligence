@@ -11,7 +11,7 @@ Created a TileBoard class and Board class for representing n-puzzles
 
 ##### For Example: 
 **TileBoard(n, force_state=None)** – Creates an n-puzzle of size n.  
-Example TileBoard(8) creates the 8-puzzle shown below
+Example TileBoard(8) creates the 8-puzzle shown above
 
 ##### Checkout:
 - [Assignment instructions](A01.pdf)
