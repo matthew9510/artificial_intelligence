@@ -19,7 +19,8 @@ class Board:
         # in row-major order (rows indexed first)
         self.board = \
             [[None for c in range(cols)] for r in range(rows)]
-
+        self.turn_count = 0
+        
     def place(self, row, col, item):
         "place an item"
         self.board[row][col] = item

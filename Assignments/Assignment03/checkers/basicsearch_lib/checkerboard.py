@@ -5,7 +5,7 @@ Modified Feb 26, 2018 - Expanded comments
 @author: mroch
 '''
 
-from basicsearch_lib.board import Board
+from board import Board
 from copy import copy, deepcopy
 import operator
    

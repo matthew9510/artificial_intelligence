@@ -59,7 +59,8 @@ class AlphaBetaSearch(object):
                 print(state)
             else:
                 utility = None
-        return (terminal, utility)
+            return (
+             terminal, utility)
 
     def maxvalue(self, state, alpha, beta, ply):
         """"maxvalue - alpha/beta search from a maximum node
@@ -97,7 +98,7 @@ class AlphaBetaSearch(object):
                         self.pruned.append([state, child])
                     break
                 else:
-                    alpha = max(alpha, v) # this alpha is actually the scopes alpha
+                    alpha = max(alpha, v)
 
             return (
              v, maxaction)
