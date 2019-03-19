@@ -1,0 +1,3 @@
+https://www.programiz.com/python-programming/methods/set/copy
+https://developers.google.com/edu/python/strings
+https://docs.python.org/3/library/queue.html
