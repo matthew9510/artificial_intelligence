@@ -15,7 +15,7 @@ Created a TileBoard class and Board class for representing n-puzzles
 **TileBoard(n, force_state=None)** – Creates an n-puzzle of size n.  
 Example TileBoard(8) creates the 8-puzzle shown above
 
-##### Checkout:
+#### Checkout:
 -  The [driver.py](basicsearch_lib/driver.py) for using interacting with the implementation. Can you solve the puzzle?
 - [Code](basicsearch_lib/)
 - [Research done alongside this assignment](Research/)
