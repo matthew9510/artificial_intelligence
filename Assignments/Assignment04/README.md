@@ -11,4 +11,4 @@ The sudoku module implements the class Sudoku that is derived from a CSP class (
 ##### Checkout
 - The assignment instructions linked at the top of this readme to better understand the assignment
 - [Code](.)
-- The [driver](driver.py) for using and interacting with the implementation. 
+- The [driver](driver.py) for using and interacting with the implementation.  
