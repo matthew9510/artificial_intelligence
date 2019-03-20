@@ -1,5 +1,9 @@
 #### Assignment04 README
 
+[Assignment instructions](A04_instructions.pdf)
+
+#### Abstract Overview
+
 Solving Sudoku puzzles using constraint satisfaction techniques.
 
 The task in this assignment is to implement **AC3 constraint propagation**, **backtracking search**, and a driver. 
