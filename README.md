@@ -1,6 +1,6 @@
 ### This repository follows along with my San Diego State University course work.
 
-For a more indepth description of what each assignment focused on please check out the individual READMEs for each assignment.
+For a more in depth description of what each assignment focused on please check out the individual READMEs for each assignment.
 
 #### Directory:
 - [Lecture Slides](https://github.com/matthew9510/artificial_intelligence/tree/master/Slides)
